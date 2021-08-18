@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-camera></a-camera>
+        <a-assets>
+            <a-asset-item id="Side_Table_1" src="Side_Table/tinker.obj"></a-asset-item>
+            <a-asset-item id="Side_Table_2" src="Side_Table/obj.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-entity obj-model="obj: #Side_Table_1; mtl: #Side_Table_2" rotation="-90 0 90">
+            
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
